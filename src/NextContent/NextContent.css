@@ -1,0 +1,140 @@
+.main_content {
+  position: absolute;
+  top: 120vw;
+}
+
+.w-100 {
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.content {
+  margin: auto;
+  margin-top: 5vw;
+  width: 80%;
+  display: flex;
+  margin-top: 3rem;
+}
+.color_red {
+  font-size: 3vw;
+  color: #fa4a0c;
+}
+.content img {
+  width: 20vw;
+}
+.imageofphone {
+  width: 50%;
+}
+.info {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.weight-700 {
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.vw {
+  font-size: 3vw;
+  color: #737373;
+}
+.background_img {
+  margin-top: 10vw;
+  position: relative;
+}
+.background_img img {
+  width: 100vw;
+}
+
+info_over {
+  position: absolute;
+}
+
+.footer_main {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5vw 0;
+}
+.footer_main .logo {
+  width: 25%;
+}
+.icons img {
+  width: 2vw;
+  margin-left: 3vw;
+}
+.footer_main p {
+  font-size: 1vw;
+}
+.content_overimage {
+  position: absolute;
+  width: 100vw;
+  top: 2vw;
+  text-align: center;
+  padding: 5vw;
+}
+.content_overimage button {
+  border-radius: 1vw;
+  border-width: 1px;
+}
+.content_overimage h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.width{
+  width: 80vw;
+}
+/* media queries */
+@media only Screen and (max-width:414px){
+  .content{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .info{
+    height: 25vh;
+    text-align: center;
+    margin-bottom: 5vw;
+  }
+  .imageofphone{
+    margin-left: 25%!important;
+  }
+  .special-flex{
+    flex-direction: column-reverse!important;
+  }
+  .width{
+    width: 50%;
+  }
+  .background_img img{
+    display:none;
+  }
+  .content_overimage{
+    background-color: #252B42;
+    width: 100vw;
+  }
+  .content_overimage button{
+    font-size: 2vw;
+  }
+  .special-btn{
+    width: 25%;
+  }
+  .logo{
+    display: none;
+  }
+  .footer_main{
+    position: absolute;
+    bottom: -20%;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: space-around;
+  }
+  .icons img{
+    width: 5vw;
+  }
+} 
