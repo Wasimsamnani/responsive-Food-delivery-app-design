@@ -18,16 +18,17 @@ function ContentMiddle() {
                 </h1>
                 <h4>Download the bella onoje’s food app now on</h4>
                 <div class="Buttons">
-                    <button class="background">Playstore</button>
-                    <button class="t-color">App Store</button>
+                        <button class="background">Playstore</button>
+                        <button class="t-color">App Store</button>
                 </div>
 
             </div>
             <div class="phonesimages">
+
                 <img class="playstoreimage" src={rightimage} alt="Playstore" />
-                <img class="appstoreimage" src={leftimage} alt="Appstore" />
+                    <img class="appstoreimage" src={leftimage} alt="Appstore" />
             </div>
-            <hr class="hr_abs"/>
+            <hr class="hr_abs" />
         </>
 
     )
